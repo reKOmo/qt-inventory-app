@@ -1,0 +1,163 @@
+{
+    "_meta": {
+        "language": "en",
+        "version": "1.0",
+        "description": "ElectraBase Pro - English language file"
+    },
+    "app": {
+        "name": "ElectraBase Pro",
+        "version": "1.0.0",
+        "description": "Professional Electronic Component Management System",
+        "builtWith": "Built with C++17, Qt 6, and SQLite"
+    },
+    "menu": {
+        "file": {
+            "title": "File",
+            "refresh": "Refresh",
+            "exit": "Exit"
+        },
+        "component": {
+            "title": "Component",
+            "addNew": "Add New...",
+            "edit": "Edit...",
+            "delete": "Delete"
+        },
+        "category": {
+            "title": "Category",
+            "addNew": "Add New Category...",
+            "manage": "Manage Categories..."
+        },
+        "view": {
+            "title": "View",
+            "showAll": "Show All",
+            "showLowStock": "Show Low Stock Only"
+        },
+        "help": {
+            "title": "Help",
+            "aboutQt": "About Qt"
+        }
+    },
+    "toolbar": {
+        "title": "Main Toolbar",
+        "add": "Add",
+        "addTooltip": "Add new component",
+        "edit": "Edit",
+        "editTooltip": "Edit selected component",
+        "delete": "Delete",
+        "deleteTooltip": "Delete selected component",
+        "refresh": "Refresh",
+        "refreshTooltip": "Refresh data from database",
+        "search": "Search:",
+        "searchPlaceholder": "Type to search...",
+        "category": "Category:",
+        "allCategories": "All Categories"
+    },
+    "sidebar": {
+        "title": "Categories",
+        "allComponents": "All Components",
+        "lowStockItems": "Low Stock Items",
+        "quickStats": "Quick Stats",
+        "loading": "Loading...",
+        "totalLabel": "Total: %1",
+        "lowStockLabel": "Low Stock: %1"
+    },
+    "table": {
+        "columns": {
+            "id": "ID",
+            "name": "Name",
+            "category": "Category",
+            "manufacturer": "Manufacturer",
+            "quantity": "Qty",
+            "minStock": "Min",
+            "value": "Value",
+            "package": "Package"
+        }
+    },
+    "statusBar": {
+        "showingLowStock": "Showing %1 low stock items",
+        "showingFiltered": "Showing %1 of %2 components",
+        "totalComponents": "Total: %1 components"
+    },
+    "dialog": {
+        "component": {
+            "titleAdd": "Add New Component",
+            "titleEdit": "Edit Component",
+            "basicInfo": "Basic Information",
+            "namePlaceholder": "e.g., RES-10K-0805 or ATmega328P",
+            "nameLabel": "Name/Part Number:*",
+            "manufacturerLabel": "Manufacturer:",
+            "manufacturerPlaceholder": "e.g., Yageo, Microchip",
+            "categoryLabel": "Category:*",
+            "quantityLabel": "Quantity:*",
+            "unitsSuffix": " units",
+            "passiveParams": "Passive Component Parameters",
+            "valueLabel": "Value:*",
+            "packageLabel": "Package:",
+            "activeParams": "Active Component Parameters",
+            "voltageLabel": "Max Voltage:",
+            "voltageSuffix": " V",
+            "pinCountLabel": "Pin Count:",
+            "pinsSuffix": " pins",
+            "datasheetLabel": "Datasheet URL:",
+            "datasheetPlaceholder": "https://...",
+            "otherParams": "Other Parameters",
+            "minStockLabel": "Minimum Stock:",
+            "validationError": "Validation Error",
+            "nameRequired": "Please enter a component name or part number.",
+            "quantityNegative": "Quantity cannot be negative."
+        },
+        "category": {
+            "titleAdd": "Add New Category",
+            "titleEdit": "Edit Category",
+            "titleManage": "Manage Categories",
+            "categoryInfo": "Category Information",
+            "nameLabel": "Name:*",
+            "namePlaceholder": "e.g., LED, Sensor, Module",
+            "componentType": "Component Type",
+            "typeInfo": "Select the component type to determine which fields appear\nwhen adding components of this category:",
+            "passiveCheck": "Passive Component (has Value and Package fields)",
+            "activeCheck": "Active Component (has Voltage, Pins, Datasheet fields)",
+            "typeNote": "Note: If neither is selected, only basic fields are shown.",
+            "defaultUnit": "Default Unit (for Passive)",
+            "unitLabel": "Unit Symbol:",
+            "unitPlaceholder": "e.g., Ω, F, H, V, A",
+            "nameRequired": "Please enter a category name.",
+            "edit": "Edit",
+            "delete": "Delete",
+            "close": "Close",
+            "cannotDelete": "Cannot Delete",
+            "cannotDeleteOther": "The 'Other' category cannot be deleted as it is used as the default category.",
+            "confirmDelete": "Confirm Delete",
+            "deleteWithComponents": "Are you sure you want to delete category '%1'?\n\n%2 component(s) will be reassigned to 'Other'.",
+            "deleteEmpty": "Are you sure you want to delete category '%1'?",
+            "noSelection": "No Selection",
+            "selectToEdit": "Please select a category to edit.",
+            "selectToDelete": "Please select a category to delete."
+        }
+    },
+    "messages": {
+        "error": "Error",
+        "warning": "Warning",
+        "success": "Success",
+        "confirm": "Confirm",
+        "databaseError": "Database Error",
+        "databaseInitFailed": "Failed to initialize database:\n%1",
+        "addCategoryFailed": "Failed to add category.",
+        "updateCategoryFailed": "Failed to update category.",
+        "deleteCategoryFailed": "Failed to delete category.",
+        "noSelection": "No Selection",
+        "selectComponentToEdit": "Please select a component to edit.",
+        "selectComponentToDelete": "Please select a component to delete.",
+        "confirmDeleteComponent": "Are you sure you want to delete '%1'?"
+    },
+    "multipliers": {
+        "pico": "pico (p)",
+        "nano": "nano (n)",
+        "micro": "micro (μ)",
+        "milli": "milli (m)",
+        "base": "(base)",
+        "kilo": "kilo (k)",
+        "mega": "mega (M)",
+        "giga": "Giga (G)"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "app": {
+        "name": "ElectraBase Pro",
+        "version": "1.0.0",
+        "organization": "ElectraBase"
+    },
+    "database": {
+        "path": "inventory.db"
+    },
+    "ui": {
+        "lowStockThreshold": 10,
+        "showLowStockWarnings": true,
+        "windowWidth": 1200,
+        "windowHeight": 700,
+        "sidebarWidth": 200
+    },
+    "features": {
+        "enableSampleData": true,
+        "enableAutoRefresh": false,
+        "autoRefreshInterval": 30
+    },
+    "language": {
+        "file": "lang/en.json"
+    }
+}
