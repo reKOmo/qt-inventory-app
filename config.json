@@ -1,8 +1,8 @@
 {
     "app": {
-        "name": "ElectraBase Pro",
+        "name": "Electronic Component Inventory Manager",
         "version": "1.0.0",
-        "organization": "ElectraBase"
+        "organization": "reKOmo"
     },
     "database": {
         "path": "inventory.db"

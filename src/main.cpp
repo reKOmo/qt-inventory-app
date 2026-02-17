@@ -78,13 +78,8 @@ int main(int argc, char *argv[])
         }
     }
 
-    // Use system default style
-    // Uncomment below to force a specific style:
-    // app.setStyle(QStyleFactory::create("Fusion"));
-
     qDebug() << "Working directory:" << QDir::currentPath();
 
-    // Create and show main window
     MainWindow mainWindow;
     mainWindow.show();
 

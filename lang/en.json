@@ -2,13 +2,12 @@
     "_meta": {
         "language": "en",
         "version": "1.0",
-        "description": "ElectraBase Pro - English language file"
+        "description": "ECIM - English language file"
     },
     "app": {
-        "name": "ElectraBase Pro",
+        "name": "ECIM",
         "version": "1.0.0",
-        "description": "Professional Electronic Component Management System",
-        "builtWith": "Built with C++17, Qt 6, and SQLite"
+        "description": "Electronic Component Management System"
     },
     "menu": {
         "file": {
