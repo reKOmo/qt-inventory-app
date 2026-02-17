@@ -1,0 +1,79 @@
+# Qt / C++ project Git ignore
+
+# Build directories
+build/
+build-*/
+cmake-build-*/
+out/
+bin/
+obj/
+Debug/
+Release/
+RelWithDebInfo/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+
+# qmake / Qt Creator
+*.pro.user
+*.pro.user.*
+*.autosave
+.qmake.stash
+*.creator.*
+*.session
+
+# Qt generated files
+moc_*.cpp
+moc_*.cxx
+qrc_*.cpp
+ui_*.h
+ui_*.hpp
+*.moc
+*.rcc
+
+# Compiled object files and libraries
+*.o
+*.obj
+*.lo
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Coverage and profiling
+*.gcda
+*.gcno
+*.gcov
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*~
+.#*
+*.~lock.*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.iml
+*.sublime-*
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+tags
+cscope.*
