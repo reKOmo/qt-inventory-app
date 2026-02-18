@@ -16,9 +16,9 @@ A demonstration application showcasing advanced C++ 17, Qt, and database program
 - **DAO Pattern**: DatabaseManager handles all data access operations
 
 ### Technologies
-- **C++17**: Smart pointers (`std::unique_ptr`), STL containers, modern language features
-- **Qt 6**: Widgets, Core, and SQL modules
-- **SQLite 3**: Relational database for persistent storage
+- **C++17**
+- **Qt 6**
+- **SQLite 3**
 
 
 ## Building
